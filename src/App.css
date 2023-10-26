@@ -1,0 +1,482 @@
+.color-pallete{
+    color: #ecf0f1;
+    color: #C62024;
+    color: #6B6F70;
+    color: #F2AC24;
+    color: #815c39;
+    color: #020f25;
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: #020f25;
+  }
+
+  .hero{
+    background-image: url("./assets/hero.jpg");
+    background-size: cover;
+    width: 100%;
+  }
+
+  .hero2{
+    background-image: url("./assets/herobottom.jpg");
+    background-size: cover;
+    width: 100%;
+  }
+
+  .exercise{
+    background-image: url("./assets/exercise.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .h-gradient{
+    background: #F2AC24;
+background: -webkit-linear-gradient(to right, #F2AC24 16%, #C62024 100%);
+background: -moz-linear-gradient(to right, #F2AC24 16%, #C62024 100%);
+background: linear-gradient(to right, #F2AC24 16%, #C62024 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
+  .sh-gradient{
+    background: #F2AC24;
+background: -webkit-linear-gradient(to right, #F2AC24 0%, #C62024 100%);
+background: -moz-linear-gradient(to right, #F2AC24 0%, #C62024 100%);
+background: linear-gradient(to right, #F2AC24 0%, #C62024 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
+
+  label{
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  
+  input{
+    height: 50px;
+    border-radius: 20px;
+    background-color: #edefee;
+    border: 4px solid #F2AC24;
+    width: 100%;
+  }
+
+  textarea{
+    border: 4px solid #F2AC24;
+    border-radius: 20px;
+    height: 160px;
+  }
+  
+  
+  input[type=text], input[type=email], input[type=tel], textarea[type=text], input[type=date]{
+    padding: 12px 20px;   
+    color: #020f25;
+    display: block;
+    margin-top: 8px;
+  }
+
+
+  
+  
+  form button:disabled{
+    background-color: gray;
+  }
+  
+  .paginate{
+    display: inline-block;
+    margin: 8px;
+  }
+
+  .paginate-li{
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    text-justify: center;
+  }
+
+  .silver{
+    background:
+    -moz-linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,#dedede 21%, #ffffff 24% #454545 27%, #dedede 36%,#ffffff 45%,#ffffff 60%,
+    #dedede 72%,#ffffff 80%,
+    #dedede 84%,#a1a1a1
+  );
+  background:
+  -webkit-linear-gradient(
+    -72deg,
+    #dedede,
+    #ffffff 16%,#dedede 21%, #ffffff 24%,#919191 27%, #dedede 36%,#ffffff 45%, #ffffff 60%,
+    #dedede 72%,#ffffff 80%, #dedede 84%, #a1a1a1
+  );
+  background:
+  -o-linear-gradient(
+    -72deg, #dedede,#ffffff 16%,#dedede 21%, #ffffff 24%, #919191 27%, #dedede 36%,
+    #ffffff 45%, #ffffff 60%, #dedede 72%,#ffffff 80%, #dedede 84%, #a1a1a1
+  );
+  background:
+  linear-gradient(
+    -72deg, #dedede, #ffffff 16%,#dedede 21%,#ffffff 24%,#919191 27%, #dedede 36%,
+    #ffffff 45%, #ffffff 60%, #dedede 72%, #ffffff 80%, #dedede 84%, #a1a1a1
+  );
+  }
+
+  .gold {
+    background:
+    -moz-linear-gradient(
+    -72deg,
+    #ffde45, #ffffff 16%,#ffde45 21%,#ffffff 24%,#ad641f 27%,ffde45 36%,#ffffff 45%,
+    #ffffff 60%, #ffde45 72%, #ffffff 80%, #ffde45 84%, #ad641f
+  );
+  background:
+  -webkit-linear-gradient(
+    -72deg,
+    #ffde45, #ffffff 16%, #ffde45 21%, #ffffff 24%, #ad641f 27%, #ffde45 36%,#ffffff 45%,
+    #ffffff 60%,#ffde45 72%, #ffffff 80%, #ffde45 84%,#ad641f
+  );
+  background:
+  -o-linear-gradient(
+    -72deg,
+    #ffde45, #ffffff 16%, #ffde45 21%, #ffffff 24%,#ad641f 27%,
+    #ffde45 36%, #ffffff 45%, #ffffff 60%, #ffde45 72%, #ad641f 80%, #ffde45 84%, #919191
+  );
+  background:
+  linear-gradient(
+    -72deg,
+    #ffde45, #ffffff 16%, #ffde45 21%, #ffffff 24%, #ad641f 27%, #ffde45 36%, #ffffff 45%,
+    #ffffff 60%, #ffde45 72%, #ffffff 80%, #ffde45 84%, #ad641f
+  );
+   }
+
+   .premium{
+    background:
+  -moz-linear-gradient(
+    -72deg,
+    #dedede, #ffffff 16%, #dedede 21%, #ffffff 24%, #caa1de 27%, #dea1ca 30%, #dedede 38%,
+    #ffffff 45%, #ffffff 60%, #dedede 72%, #ffffff 80%, #dedede 84%, #caa1de 93%, #dea1ca
+  );
+  background:
+  -webkit-linear-gradient(
+    -72deg,
+    #dedede, #ffffff 16%, #dedede 21%, #ffffff 24%, #caa1de 27%, #dea1ca 30%, #dedede 38%,
+    #ffffff 45%, #ffffff 60%, #dedede 72%, #ffffff 80%, #dedede 84%,#caa1de 93%, #dea1ca
+  );
+  background:
+  -o-linear-gradient(
+    -72deg,
+    #dedede, #ffffff 16%, #dedede 21%, #ffffff 24%, #caa1de 27%, #dea1ca 30%, #dedede 38%,
+    #ffffff 45%, #ffffff 60%, #dedede 72%, #ffffff 80%, #dedede 84%, #caa1de 93%, #dea1ca
+  );
+  background:
+  linear-gradient(
+    -72deg,
+    #dedede, #ffffff 16%, #dedede 21%, #ffffff 24%, #caa1de 27%, #dea1ca 30%, #dedede 38%,
+    #ffffff 45%, #ffffff 60%, #dedede 72%, #ffffff 80%, #dedede 84%, #caa1de 93%, #dea1ca
+  );
+   }
+
+   .membership-card{
+    box-shadow: 10px 5px 5px #020f25;
+   }
+
+   .contract li{
+    margin: 12px;
+    list-style-type: disc;
+   }
+
+   nav li{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  nav li ul{
+    display: none;
+    position: fixed;
+    background-color: #F2AC24e6;
+    top: 50px;
+  }
+  
+  .container {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    min-height: 100vh;
+  }
+  
+  .diet-h {
+    color: #1D2038;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 12px 48px 12px;
+    font-weight: 800;
+  }
+  
+  .daily-calorie {
+    margin-top: -16px;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .app {
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #815c39;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    margin: 6px;
+  }
+  fieldset > label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    min-width: 90%;
+    font-size: 1.3rem;
+  }
+  
+  input[type=text], input[type=number], select[name=activityLevel] {
+    height: 50px;
+    margin-top: 8px;
+    padding: 4px 0 4px 8px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+  
+  select[name=activityLevel] {
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  
+  .activity option {
+    width: inherit;
+    font-size: 1.1rem;
+  }
+  
+  .radio-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 90%;
+  }
+
+  .radio-btn label{
+    margin-right: 30px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .btn {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    background-color: #C62024;
+    font-weight: 700;
+  }
+  
+  .tables {
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #815c39;
+  }
+  .tables p {
+    padding-bottom: 8px;
+    font-size: 1.1rem;
+  }
+
+  .daily-change p{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parag {
+    font-size: 1.3rem;
+    margin: 16px;
+    text-align: justify;
+  }
+  
+  .table-daily {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  
+  .table-bmi p {
+    font-size: 1.3rem;
+    border-bottom: 2px solid #F8F5F4;
+    padding-bottom: 8px;
+  }
+  
+  .table-bmi-head {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+  }
+  
+  .intake-header {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 0.8fr 0.8fr 0.2fr;
+    font-size: 1.3rem;
+  }
+  
+  .intake-row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 0.8fr 0.8fr 0.2fr;
+    font-size: 1.1rem;
+  }
+  .intake-row p {
+    padding-right: 4px;
+  }
+  
+  .intake-overal {
+    border-top: 2px solid #F8F5F4;
+  }
+  
+  .tables img {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .burned-row {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr 0.2fr;
+    font-size: 1.1rem;
+  }
+  .burned-row p {
+    padding-right: 4px;
+  }
+  
+  .burned-header {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr 0.2fr;
+    font-size: 1.1rem;
+  }
+  
+  .burned-overal {
+    border-top: 2px solid #F8F5F4;
+  }
+  
+  .table-info {
+    margin-left: 16px;
+  }
+  
+  .nutrition {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+  }
+  
+  .add-btn {
+    align-self: center;
+  }
+  
+  .close-btn {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: red;
+    background-color: #F2AC24;
+    border-radius: 90px;
+    border: 0;
+    align-self: center;
+    font-size: 18px;
+  }
+  
+  .total-burned {
+    grid-column-start: 3;
+  }
+    
+
+   @media only screen and (min-width: 1024px){
+     .registration{
+    background-image: url("./assets/registration.jpg");
+    background-size: cover;
+    width: 100%;
+    }
+
+    nav li:hover ul{
+      display: block;
+      flex-direction: column;
+      transform: translate(-55px);
+    }
+  
+    nav li ul li{
+      display: block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    nav ul li:hover{
+      border-bottom: 4px solid #C62024;
+      color: #C62024;
+      padding-bottom: 4px;
+      padding-top: 4px;
+      }
+    
+
+    .bg {
+      height: 100vh;
+    }
+    button {
+      cursor: pointer;
+    }
+    .container {
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 0.1fr 1fr;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .h-div {
+      grid-column: span 2;
+    }
+    .tables p {
+      font-size: 1.3rem;
+      padding-bottom: 8px;
+    }
+    .tables h2 {
+      font-size: 1.5rem;
+    }
+    .intake-header h2 {
+      font-size: 1.2rem;
+    }
+    .tables, .table-burned, .table-intake, .table-bmi {
+      padding: 32px;
+    }
+    .app, .app-intake, .app-burned, .app-bmi, .tables, .table-burned, .table-intake, .table-bmi {
+      min-height: 650px;
+    }
+
+    .app{
+      margin-bottom: 0;
+    }
+  }
+
+  
