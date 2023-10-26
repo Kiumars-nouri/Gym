@@ -39,7 +39,7 @@ export default function MembershipForm(){
 
     return(
 
-        <section id="subscribtion" className="mt-[60px] pt-[60px] pb-[60px] registration md:h-full flex flex-col justify-center bg-[#ecf0f1]">
+        <section id="subscribtion" className="mt-[60px] pt-[60px] pb-[60px] registration md:h-full flex flex-col justify-center bg-[#ecf0f1] min-h-[100vh]">
 
 
             {location.state ==="silver" && <div className="mr-4 md:ml-[20%] ml-4 flex md:flex-row 
